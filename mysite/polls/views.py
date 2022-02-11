@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from .models import Question
+from django.template import loader
 
 
 def index(request):
